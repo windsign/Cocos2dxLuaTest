@@ -19,6 +19,7 @@ BattleChar =
         self.posy = y
         self.sx = self.psw*x + 0.5*self.psw
         self.sy = self.psh*y + 0.5*self.psh
+        self.sprite:setPosition(self.sx,self.sy)
     end,
 
     Init = function(self, psw, psh)
